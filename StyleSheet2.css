@@ -1,0 +1,266 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: lightblue;
+}
+
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+    
+}
+
+.left{
+    background: lightgrey;
+    width: 250px;
+    padding: 0  20px;
+}
+
+.right{
+    width: calc(100% - 250px);
+}
+
+.left .img_holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left .img_holder img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    padding-bottom: 10px;
+    color: green;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: teal 
+}
+
+.left .icon{
+    font-size: 20px;
+    color: teal
+}
+
+.left .text{
+    color: green;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact .li_wrap{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: aqua;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.contact .li_wrap .text{
+    width: calc(100% - 10px);
+    word-break: break-word;
+    color: blue;
+}
+
+.skills ul,
+.hobbies ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .li_wrap{
+    background: white;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+    margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+    border: 2px solid grey;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+ color: blue;
+ }
+
+.hobbies .li_wrap:hover{
+    background: red;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+    color: darkturquoise;
+}
+
+.header{
+    background: lightgrey;
+    padding: 15px 30px;
+    color: black;
+    height: 240px;
+}
+
+    .header .name {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: blue;
+    }
+
+.header .role{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .about{
+    margin-top: 20px;
+    line-height: 17px;
+}
+
+.right_inner .exp_wrap li{
+display: flex;
+margin-bottom: 15px;
+}
+
+.right_inner .core_wrap li{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.right_inner .core_wrap {
+    padding-left: 130px;
+    width: calc(100% - 125px);
+    position: relative;
+}
+
+.exp_wrap ul{
+    list-style: none;
+}
+
+.right_inner .li_wrap .date{
+    list-style: none;
+    width: 125px;
+    color: black;
+}
+
+.right_inner .li_wrap .info{
+    list-style: none;
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: aqua;
+}
+
+
+.right_inner .li_wrap .info_com{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+    margin-top: 15px;
+}
+
+.core_wrap ul{
+    list-style: none;
+}
+
+.edu_wrap ul{
+    list-style: none;
+}
+
+
+
+.right_inner .li_wrap .info:before {
+    list-style: none;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
